@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\USUARIO\Downloads\NeoMarke-master\NeoMarke-master\Business\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\USUARIO\Downloads\NeoMarke-master\NeoMarke-master\Business\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Web\Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
+</Project>
